@@ -3528,7 +3528,7 @@
 				-ms-flex: 2;
 			}
 
-			.wrapper.spotlight:nth-child(2n - 1) .inner {
+			.wrapper.spotlight:nth-child(3n - 2) .inner {
 				-moz-flex-direction: row-reverse;
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
@@ -3536,7 +3536,7 @@
 				text-align: right;
 			}
 
-			.wrapper.spotlight:nth-child(2n - 1) .image {
+			.wrapper.spotlight:nth-child(3n - 2) .image {
 				margin: 0 0 2em 3em;
 			}
 
@@ -3719,6 +3719,10 @@
 		}
 
 /* Footer */
+	#footer {
+		padding: 4.5em 0 2.5em 0 ;
+		text-align: center;
+	}
 
 	#footer .inner {
 		padding: 5em 0 3em 0 ;
